@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton'
+import TextField from 'material-ui/TextField'
 
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
@@ -47,9 +48,17 @@ class App extends Component {
 
   render() {
     return (
-      <MuiThemeProvider>
-        <RaisedButton label="Hello" secondary />
-      </MuiThemeProvider>
+      <div>
+        <MuiThemeProvider>
+          <TextField
+            hintText="Song"
+            floatingLabelText="Song Title"
+          />
+        </MuiThemeProvider>
+        <MuiThemeProvider>
+          <RaisedButton label="Hello" secondary />
+        </MuiThemeProvider>
+      </div>
     );
   }
 }

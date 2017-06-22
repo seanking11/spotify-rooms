@@ -9,7 +9,3 @@ The owner would create a room and allow others to add songs (pending approval by
 + Clone or fork this repo
 + Change directory to the project using `cd spotify-rooms`
 + Then, run in browser using `npm start`
-
-## Overall Goal
-
-Have an a

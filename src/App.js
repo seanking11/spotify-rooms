@@ -56,6 +56,12 @@ class App extends Component {
           />
         </MuiThemeProvider>
         <MuiThemeProvider>
+          <TextField
+            hintText="Artist"
+            floatingLabelText="Artist"
+          />
+        </MuiThemeProvider>
+        <MuiThemeProvider>
           <RaisedButton label="Hello" secondary />
         </MuiThemeProvider>
       </div>
